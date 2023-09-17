@@ -20,22 +20,22 @@ print("Searching for " + character_input + " in " + wordle_word)
 
 if character_input == str(wordle_word)[0]:
     number_of_instances = number_of_instances + 1
-    print(character_input + " found at index 0" )
+    print(character_input + " found at index 0")
 
 if character_input == str(wordle_word)[1]:
-    print(character_input + " found at index 1" )
+    print(character_input + " found at index 1")
     number_of_instances = number_of_instances + 1
 
 if character_input == str(wordle_word)[2]:
-    print(character_input + " found at index 2" )
+    print(character_input + " found at index 2")
     number_of_instances = number_of_instances + 1
 
 if character_input == str(wordle_word)[3]:
-    print(character_input + " found at index 3" )
+    print(character_input + " found at index 3")
     number_of_instances = number_of_instances + 1
 
 if character_input == str(wordle_word)[4]:
-    print(character_input + " found at index 4" )
+    print(character_input + " found at index 4")
     number_of_instances = number_of_instances + 1
 
 
