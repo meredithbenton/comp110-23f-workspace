@@ -48,7 +48,7 @@ def input_guess(expected_length: int) -> str:
 def main() -> None:
     """The entrypoint of the program and main game loop."""
     turn_number: int = 1
-    secret_word: str = "codes"
+    secret_word: str = "jesus"
     winning_loop = False
     while turn_number <= 6 and winning_loop is False:
         print(f"=== Turn {turn_number}/6 ===")
@@ -56,7 +56,7 @@ def main() -> None:
         result = emojified(guess, secret_word)
         if guess == secret_word:
             print(result)
-            print(f"You won in {turn_number}/6 turns!")
+            print(f"You won in {turn_number}/6 turns! Good job for not being dumb because you should know that jesus is always the answer.")
             winning_loop = True
             return
         else:
@@ -64,6 +64,7 @@ def main() -> None:
             turn_number += 1
     if turn_number > 6:
         print("X/6 - Sorry, try again tomorrow!")
+        print(f"You are so dumb you should know by now that {secret_word} is always the answer.")
         return
     
 
